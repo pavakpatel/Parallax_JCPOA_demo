@@ -83,7 +83,6 @@ h3 {
 
 .hero-bg._1 {
   background-image: url('../images/1.svg');
-  background-position: 50% 100%;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -93,10 +92,10 @@ h3 {
 }
 
 .hero-bg._3 {
-  background-image: url('../images/bg3.svg');
-  background-position: 50% 100%;
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-image: none;
+  background-position: 0px 0px;
+  background-size: auto;
+  background-repeat: repeat;
 }
 
 .hero-bg._4 {
@@ -125,8 +124,8 @@ h3 {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f26522), color-stop(61%, #ffeec7));
-  background-image: linear-gradient(180deg, #f26522, #ffeec7 61%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f26522), color-stop(49%, #ffeec7));
+  background-image: linear-gradient(180deg, #f26522, #ffeec7 49%);
 }
 
 .hero-bg.header {
@@ -151,7 +150,7 @@ h3 {
 
 .hero-bg.upper {
   height: 50%;
-  background-color: #f26522;
+  background-color: #ffa378;
   background-image: none;
 }
 
@@ -453,6 +452,7 @@ h3 {
   width: 700px;
   margin-bottom: 68px;
   font-family: Exo, sans-serif;
+  color: #fff;
   line-height: 60px;
   font-weight: 800;
   text-align: center;
